@@ -1,0 +1,359 @@
+/* utilities */
+.btn {
+    font-size: 16px;
+    padding: 5px 10px;
+    /* display: block; */
+}
+
+
+h2 {
+    font-size: 50px;
+    color: #38ADDF;
+    margin-bottom: 30px;
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+    z-index: 1;
+}
+.navbar .navbar-brand {
+    color: #38ADDF;
+    font-weight: 500;
+}
+
+.navbar span {
+    color: #38ADDF !important;
+}
+
+.navbar .nav-link {
+    color: #38ADDF !important;
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+    color: #1F4C5F !important;
+}
+
+
+/* jumbotron */
+
+.jumbotron {
+    z-index: -1;
+    position: relative;
+    background-image: url(img/book-2592057_1920.jpg);
+    background-size: cover;
+    /* text-align: center; */
+    /* height: 800px; */
+}
+
+.jumbotron::after {
+    z-index: -1;
+    content: "";
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin: 30px 0;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.jumbotron h3 {
+    margin-top: 100px;
+    color: #38ADDF;
+}
+
+.jumbotron h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.jumbotron .counter {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.jumbotron .counter h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.jumbotron .counter p {
+    margin-top: -15px;
+    font-size: 24px;
+    color: #38ADDF;
+    font-weight: 700;
+}
+
+.jumbotron .expired {
+    color: #38ADDF;
+}
+
+.jumbotron .counter div {
+    display: inline-block;
+    margin-right: 25px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .galery {
+    margin-left: 30px;
+    color: #38ADDF;
+    border: 3px solid #38ADDF;
+}
+
+.jumbotron .galery:hover {
+    color: white;
+    background-color: #38ADDF;   
+}
+
+.jumbotron .register {
+    background-color: #38ADDF;
+    color: white;
+}
+
+.jumbotron .register:hover {
+    background-color: #2f90b9;
+}
+
+.wave {
+    margin-top: -35px;
+    background-color: #F0F0F0;
+}
+
+/* about */
+.about {
+    background-color: #F0F0F0;
+    padding-bottom: 50px;
+}
+
+.about p {
+    color: #525252;
+    text-align: center;
+}
+
+
+/* speaker */
+.speaker {
+    padding: 50px 0;
+    background-color: white;
+}
+
+.speaker h2 {
+    margin-bottom: 40px;
+}
+
+.speaker h4 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.speaker p {
+    color: #38ADDF;
+}
+
+/* schedule */
+.schedule {
+    padding: 50px 0;
+    background-color: #F0F0F0;
+}
+
+.schedule i {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #1F4C5F;
+}
+
+.schedule h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.schedule p {
+    font-size: 24px;
+    color: #38ADDF;
+    margin-bottom: 20px;
+}
+
+/* pricing */
+.pricing {
+    padding: 50px 0;
+}
+
+.pricing .card {
+    /* box-shadow: 0 0 5px rgba(0, 0, 0, 0,2) !important; */
+    background-color: #F0F0F0;
+}
+
+.pricing .card i {
+    display: block;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #38ADDF;
+}
+
+.pricing .card h4 {
+    display: inline-block;
+    font-size: 32px;
+    color: #38ADDF;
+}
+
+.pricing .card .card-price {
+    margin-left: 120px;
+}
+
+.pricing .card h5 {
+    font-size: 24px;
+    /* margin-bottom: 10px; */
+}
+
+.pricing .card .point {
+    display: block;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.pricing .card .point p {
+    margin-left: 10px;
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+}
+
+.pricing .buy {
+    margin-top: 20px;
+    background-color: #38ADDF;
+    color: white;
+}
+
+.pricing .buy:hover {
+    background-color: #2f90b9;
+}
+
+/* Place */
+.place {
+    background-color: #F0F0F0;
+    padding: 50px 0;
+}
+
+.place .card {
+    margin-bottom: 30px;
+}
+
+.place .card i {
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #38ADDF;
+}
+
+.place .card h4 {
+    display: inline-block;
+    font-size: 32px;
+    color: #1F4C5F;
+    margin-left: 100px;
+}
+
+.place .card p {
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+
+/* sponsor */
+.sponsor {
+    padding: 50px 0;
+}
+
+.sponsor img {
+    height: 100px;
+}
+
+/* footer */
+.footer {
+    background-color: #1F4C5F;
+    padding: 30px 0 10px;
+}
+
+.footer h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    font-size: 40px;
+    margin-right: 15px;
+    color: white;
+}
+
+.footer .copy {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .navbar {
+        background-color: transparent;
+    }
+    .btn {
+        font-size: 24px;
+        padding: 10px 25px;
+        display: inline-block;
+    }
+
+    .jumbotron .display-4 {
+        color: white;
+        margin: 30px 0;
+        text-transform: uppercase;
+        font-size: 64px;
+    }
+    
+    .jumbotron h3 {
+        margin-top: 100px;
+        color: #38ADDF;
+    }
+    
+    .jumbotron h2 {
+        text-transform: uppercase;
+        font-size: 50px;
+    }
+    
+    .jumbotron .counter h1 {
+        font-size: 40px;
+    }
+    
+    .jumbotron .counter p {
+        margin-top: -15px;
+        font-size: 16px;
+    }
+
+    .about p {
+        text-align: left;
+    }
+
+    .schedule .row {
+        margin-top: 40px;
+    }
+    
+    .scroll-header {
+        background-color: white;
+        box-shadow: 4px 0 5px rgba(0, 0, 0, 0.3);
+    }
+}
+
+
+
+
+
+
+

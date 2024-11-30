@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Konferensi Fisika</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .btn {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        #registrasi-page {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Konferensi Fisika</h1>
+    <h2>Tingkatkan Pengetahuan Anda</h2>
+    <h3>Datang pada Tahun 2025</h3>
+    <button class="btn" onclick="showRegistrasi()">Registrasi Sekarang</button>
+
+    <div id="registrasi-page">
+        <h1>Formulir Registrasi</h1>
+        <form>
+            <label for="name">Nama Lengkap:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <a href="index.html" class="nav-link">Kirim</a>
+        </form>
+    </div>
+
+    <script>
+        function showRegistrasi() {
+            document.getElementById('registrasi-page').style.display = 'block';
+        }
+
+        function hideRegistrasi() {
+            document.getElementById('registrasi-page').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
